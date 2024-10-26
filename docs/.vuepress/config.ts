@@ -32,7 +32,7 @@ export default defineUserConfig({
       pagination: 15,
     },
     // 添加您的部署域名
-    // hostname: 'https://your_site_url',
+    hostname: 'https://yedasyzx.cn',
 
     plugins: {
       /**
