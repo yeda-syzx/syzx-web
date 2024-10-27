@@ -49,7 +49,7 @@ jobs:
         if: runner.os == 'Linux'
         run: |
           tar \
-            --directory "./src/.vuepress/dist/" \
+            --directory "./docs/.vuepress/dist/" \
             -cvf "$RUNNER_TEMP/artifact.tar" \
             --exclude=.git \
             --exclude=.github \
